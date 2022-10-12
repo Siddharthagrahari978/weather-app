@@ -72,7 +72,7 @@ if(isset($_GET['city'])){
       
       <form>
         <fieldset class="form-group">
-          <label for = "city">Enter the name of a city.</label>
+          <label for = "city">Enter the name of a city</label>
           <input type="search" id="city" placeholder="Eg. London, Tokyo" class="form-control" name="city" value = "<?php 
                                                                                                                    if($_GET){
                                                                                                                      echo $_GET['city'];
